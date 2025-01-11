@@ -1,0 +1,52 @@
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('./images/photo_2025-01-11_21-53-01.jpg') no-repeat center center /
+    cover;
+  filter: blur(6px);
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    /* opacity: 0; */
+    transform: scale(0);
+  }
+  50% {
+    /* opacity: 0.5; */
+    transform: scale(1);
+  }
+  100% {
+    /* opacity: 1; */
+    transform: scale(1);
+    transform: rotate(45deg);
+  }
+}
+
+.fadeIn {
+  animation: fadeInAnimation 15s linear infinite;
+}
+
+.slide {
+  position: absolute;
+  /* opacity: 0; */
+  /* transform: scale(0.5); */
+}
+
+.slide img {
+  width: 220px;
+}
+
+.delay-0 {
+  animation-delay: 0s;
+}
+
+.delay-2000 {
+  animation-delay: 5s;
+}
+
+.delay-4000 {
+  animation-delay: 8s;
+}

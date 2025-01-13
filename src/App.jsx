@@ -6,7 +6,7 @@ function App() {
     <div className='relative h-screen w-full flex justify-center  overflow-hidden'>
       <div className='background'></div>
       <div className='relative text-white text-center'>
-        <div className='h-[470px] w-[450px] bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col  '>
+        <div className='h-[470px] w-[490px] bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col  '>
           <h1 className='text-4xl mt-20'>ARG HOTEL</h1>
           <div className='container relative w-full h-screen flex justify-center items-center overflow-hidden'>
             <div className='smoke'>
@@ -38,7 +38,8 @@ function App() {
             <i className='fa-brands fa-instagram'></i>
             <i className='fa-brands fa-facebook'></i>
             <i className='fa-brands fa-telegram'></i>
-            <i className='fa-brands fa-whatsapp'></i>
+            {/* <i className='fa-brands fa-whatsapp'></i> */}
+            <FontAwesomeIcon icon='fa-brands fa-whatsapp' />
           </span>
           <p className=' tracking-widest text-sm'>www.arghotel.af</p>
         </footer>

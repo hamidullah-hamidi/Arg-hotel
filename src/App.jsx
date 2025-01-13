@@ -3,10 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className='relative h-screen w-full'>
+    <div className='relative h-screen w-full flex justify-center  overflow-hidden'>
       <div className='background'></div>
       <div className='relative text-white text-center'>
-        <div className='h-[470px] w-[] bg-red-900 rounded-b-[40%] shadow-2xl shadow-black flex justify-center items-center flex-col  '>
+        <div className='h-[470px] w-[700px] bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col  '>
+          <div className=' w-5 rounded-b-[50%] bg-white'>h</div>
           <h1 className='text-4xl mt-20'>ARG HOTEL</h1>
           <div className='container relative w-full h-screen flex justify-center items-center overflow-hidden'>
             <div className='smoke'>

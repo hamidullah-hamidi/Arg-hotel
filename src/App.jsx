@@ -1,5 +1,18 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  fab,
+  faFacebook,
+  faInstagram,
+  faTelegram,
+  faWhatsappSquare,
+} from '@fortawesome/free-brands-svg-icons';
+
+import { faChevronLeft, fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, fas, faWhatsappSquare, faInstagram, faFacebook, faTelegram, faChevronLeft);
 
 function App() {
   return (
@@ -34,13 +47,11 @@ function App() {
         <footer className='mt-8 flex flex-col justify-center items-center'>
           <span className='flex gap-1 '>
             ARG Hotel
-            <i className='fa-solid fa-chevron-left mx-2'></i>
-            <i className='fa-brands fa-instagram'></i>
-            <i className='fa-brands fa-facebook'></i>
-            <i className='fa-brands fa-telegram'></i>
-            {/* <i className='fa-brands fa-whatsapp'></i> */}
-            {/* <FontAwesomeIcon icon='fa-brands fa-whatsapp' /> */}
-            {/* <FontAwesomeIcon icon={faWhatsapp} /> */}
+            <FontAwesomeIcon icon={['fas', 'chevron-left']} className='mx-2' />
+            <FontAwesomeIcon icon={['fab', 'instagram']} />
+            <FontAwesomeIcon icon={['fab', 'facebook']} />
+            <FontAwesomeIcon icon={['fab', 'telegram']} />
+            <FontAwesomeIcon icon={['fab', 'whatsapp']} />
           </span>
           <p className=' tracking-widest text-sm'>www.arghotel.af</p>
         </footer>

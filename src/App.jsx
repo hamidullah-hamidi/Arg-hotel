@@ -12,14 +12,22 @@ import {
 
 import { faChevronLeft, fas } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, fas, faWhatsappSquare, faInstagram, faFacebook, faTelegram, faChevronLeft);
+library.add(
+  fab,
+  fas,
+  faWhatsappSquare,
+  faInstagram,
+  faFacebook,
+  faTelegram,
+  faChevronLeft
+);
 
 function App() {
   return (
     <div className='relative h-screen w-full flex justify-center  overflow-hidden'>
       <div className='background'></div>
       <div className='relative text-white text-center'>
-        <div className='h-[450px] w-[460px] bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col  '>
+        <div className='h-[450px] w-[460px] md:w-full bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col  '>
           <h1 className='text-4xl mt-20'>ARG HOTEL</h1>
           <div className='container relative w-full h-screen flex justify-center items-center overflow-hidden'>
             <div className='smoke'>

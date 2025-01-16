@@ -11,13 +11,13 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url('/images/photo_2025-01-11_21-53-01.jpg') no-repeat center center /
-    cover;
+  background: url('/images/photo_2025-01-11_21-53-01.jpg') no-repeat center center / cover;
   filter: blur(6px);
 }
 
 .container img {
   width: 250px;
+  user-select:none;
 }
 
 .image-box {

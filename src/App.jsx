@@ -28,8 +28,8 @@ function App() {
       <div className='background'></div>
       <div className='relative text-white text-center md:w-full'>
         <div className='h-[450px] w-[460px] md:w-full bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col  '>
-          <h1 className='text-4xl mt-20'>ARG HOTEL</h1>
-          <img src="images/arg-logo.jpg" alt=""/>
+          {/* <h1 className='text-4xl mt-20'>ARG HOTEL</h1> */}
+          <img className='arg-logo w-[100px]' src='images/logo.png' alt='' />
           <div className='container relative w-full h-screen flex justify-center items-center overflow-hidden'>
             <div className='smoke'>
               <img src='.' alt='' />

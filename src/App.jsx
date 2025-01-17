@@ -27,7 +27,7 @@ function App() {
     <div className='relative h-screen w-full flex justify-center  overflow-hidden'>
       <div className='background'></div>
       <div className='relative text-white text-center md:w-full'>
-        <div className='h-[450px] w-[460px] md:w-full bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col  '>
+        <div className='h-[450px] w-[460px] md:w-full bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col mx-auto  '>
           {/* <h1 className='text-4xl mt-20'>ARG HOTEL</h1> */}
           <img className='arg-logo w-[100px]' src='images/logo.png' alt='' />
           <div className='container relative w-full h-screen flex justify-center items-center overflow-hidden'>
@@ -55,7 +55,7 @@ function App() {
         </div>
         <footer className='mt-8 flex flex-col justify-center items-center'>
           <span className='flex gap-1 '>
-            ARG Hotel
+            <p className='pt-1'>ARG Hotel</p>
             <FontAwesomeIcon icon={['fas', 'chevron-left']} className='mx-2' />
             <FontAwesomeIcon icon={['fab', 'instagram']} />
             <FontAwesomeIcon icon={['fab', 'facebook']} />

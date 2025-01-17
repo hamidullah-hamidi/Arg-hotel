@@ -18,7 +18,7 @@ function Slider() {
           <h1 className=' text-2xl'>میکس پلیتر</h1>
           <div className='flex gap-8'>
             <p>مخصوص</p>
-            <p>زمان:  دقیقه</p>
+            <p>زمان: 30 دقیقه</p>
           </div>
         </div>
         <div>

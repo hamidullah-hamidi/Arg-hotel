@@ -2,7 +2,7 @@ import '../App.css';
 
 function Slider() {
   return (
-    <div className='slider h-[40%] px-4 pt-4'>
+    <div className='slider h-[40%] w-full px-4 pt-4'>
       <header className='flex justify-between m-4 items-center'>
         <div>
           <h1 className=' text-2xl'>لذت های طعم دار</h1>

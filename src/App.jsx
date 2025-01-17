@@ -27,7 +27,9 @@ library.add(
 
 function App() {
   const [isMenu, setIsMenu] = useState(false);
-  function menu() {}
+  function menu() {
+    setIsMenu(true);
+  }
 
   return (
     <div className='relative h-screen w-full flex justify-center  overflow-hidden'>
@@ -58,7 +60,7 @@ function App() {
             className='mt-3 pr-5  border h-11 text-white text-3xl rounded-full flex justify-center items-center cursor-pointer'
             onClick={() => {
               console.log('hhhhhhhhhh');
-              menu(() => setIsMenu(true));
+              menu(() => menu());
             }}
           >
             <i className='material-icons text-5xl left-right'>chevron_left</i>

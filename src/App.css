@@ -17,7 +17,14 @@
 
 .container img {
   width: 250px;
-  user-select:none;
+  user-select: none;
+}
+
+.smoke img {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
 }
 
 .image-box {
@@ -38,13 +45,6 @@
 }
 .image-box:nth-child(3) {
   animation-delay: 4s;
-}
-
-.smoke img {
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  left: 0;
 }
 
 .left-right {
@@ -93,4 +93,8 @@
     opacity: 0;
     transform: scale(1);
   }
+}
+
+footer a {
+  padding-top: 0.25rem;
 }

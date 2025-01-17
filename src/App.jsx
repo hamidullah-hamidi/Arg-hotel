@@ -1,4 +1,7 @@
 import './App.css';
+import Slider from './components/Slider';
+
+import { useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -23,6 +26,9 @@ library.add(
 );
 
 function App() {
+  const [isMenu, setIsMenu] = useState(false);
+  function menu() {}
+
   return (
     <div className='relative h-screen w-full flex justify-center  overflow-hidden'>
       <div className='background'></div>
@@ -48,18 +54,37 @@ function App() {
         <div className=' mt-10 px-36 flex justify-center items-center flex-col animate-fadeIn'>
           <h1 className='text-3xl font-semibold text-orange-500'>خوش آمدید</h1>
           <p className='my-2'>از اینکه هوتل ارگ انتخاب نمودید از شما سپاسگذاریم</p>
-          <span className='mt-3 pr-5  border h-11 text-white text-3xl rounded-full flex justify-center items-center '>
+          <span
+            className='mt-3 pr-5  border h-11 text-white text-3xl rounded-full flex justify-center items-center cursor-pointer'
+            onClick={() => {
+              console.log('hhhhhhhhhh');
+              menu(() => setIsMenu(true));
+            }}
+          >
             <i className='material-icons text-5xl left-right'>chevron_left</i>
             منو
           </span>
         </div>
+        <div>{isMenu && <Slider />}</div>
         <footer className='mt-8 flex flex-col justify-center items-center'>
-          <span className='flex gap-1 '>
+          <span className='flex gap-1 items-center'>
             <p className='pt-1'>ARG Hotel</p>
             <FontAwesomeIcon icon={['fas', 'chevron-left']} className='mx-2' />
-            <FontAwesomeIcon icon={['fab', 'instagram']} />
-            <FontAwesomeIcon icon={['fab', 'facebook']} />
-            <FontAwesomeIcon icon={['fab', 'telegram']} />
+            <a href='https://www.instagram.com/arg_hotel_af?igsh=MW40eGk4c2F2Mm0wcA=='>
+              <FontAwesomeIcon icon={['fab', 'instagram']} />
+            </a>
+            <a href=''>
+              <FontAwesomeIcon
+                icon={['fab', 'facebook']}
+                href='https://www.facebook.com/ArgHotel.af/'
+              />
+            </a>
+            <a href=''>
+              <FontAwesomeIcon
+                icon={['fab', 'telegram']}
+                href='https://t.me/Group_Arg_Hotel'
+              />
+            </a>
             <FontAwesomeIcon icon={['fab', 'whatsapp']} />
           </span>
           <p className=' tracking-widest text-sm'>www.arghotel.af</p>

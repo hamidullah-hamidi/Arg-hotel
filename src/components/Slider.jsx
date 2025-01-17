@@ -6,7 +6,7 @@ function Slider() {
       <header className="flex justify-between m-4 items-center">
         <div>
           <h1 className=" text-2xl">لذت های طعم دار</h1>
-          <p className=" text-stone-400 tracking-wider">
+          <p className=" text-stone-500 tracking-wider">
             انتخاب کنید و امتحان کنید
           </p>
         </div>

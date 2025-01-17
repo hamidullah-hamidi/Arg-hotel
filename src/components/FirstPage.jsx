@@ -1,8 +1,6 @@
 import '../App.css';
 // import Slider from './components/Slider';
 
-import { useState } from 'react';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -14,6 +12,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import { faChevronLeft, fas } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 library.add(
   fab,
@@ -26,15 +25,9 @@ library.add(
 );
 
 function FirstPage() {
-  const [isMenu, setIsMenu] = useState(false);
-  function menu() {
-    setIsMenu(true);
-  }
-
   return (
     <div className='relative h-screen w-full flex justify-center '>
-      <div className='background'></div>
-      <div className='relative text-white text-center md:w-full'>
+      <div className='relative text-center md:w-full'>
         <div className='h-[450px] w-[460px] md:w-full bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col mx-auto  '>
           {/* <h1 className='text-4xl mt-20'>ARG HOTEL</h1> */}
           <img className='arg-logo w-[100px]' src='images/logo.png' alt='' />
@@ -56,18 +49,13 @@ function FirstPage() {
         <div className=' mt-10 px-36 flex justify-center items-center flex-col animate-fadeIn'>
           <h1 className='text-3xl font-semibold text-orange-500'>خوش آمدید</h1>
           <p className='my-2'>از اینکه هوتل ارگ انتخاب نمودید از شما سپاسگذاریم</p>
-          <span
-            className='mt-3 pr-5  border h-11 text-white text-3xl rounded-full flex justify-center items-center cursor-pointer'
-            onClick={() => {
-              console.log('hhhhhhhhhh');
-              menu(() => menu());
-            }}
-          >
-            <i className='material-icons text-5xl left-right'>chevron_left</i>
-            منو
-          </span>
+          <Link to='/menu'>
+            <span className='mt-3 pr-5  border h-11  text-3xl rounded-full flex justify-center items-center cursor-pointer hover:drop-shadow-2xl'>
+              <i className='material-icons text-5xl left-right'>chevron_left</i>
+              منو
+            </span>
+          </Link>
         </div>
-        <div>{isMenu && <Slider />}</div>
         <footer className='mt-8 flex flex-col justify-center items-center'>
           <span className='flex gap-1 items-center'>
             <p className='pt-1'>ARG Hotel</p>

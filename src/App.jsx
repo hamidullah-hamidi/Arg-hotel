@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <div className='relative h-screen w-full flex justify-center  overflow-hidden'>
+    <div className='relative h-screen w-full flex justify-center '>
       <div className='background'></div>
       <div className='relative text-white text-center md:w-full'>
         <div className='h-[450px] w-[460px] md:w-full bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col mx-auto  '>

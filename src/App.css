@@ -107,6 +107,10 @@ footer a {
   padding-top: 8px;
 }
 
-.lists li img{
+.lists .first img{
   width: 26px;
+}
+.lists .second img{
+  width: 100px;
+  margin-top: -50px;
 }

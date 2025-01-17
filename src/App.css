@@ -13,7 +13,7 @@
   bottom: 0;
   left: 0;
   background: url('/images/photo_2025-01-11_21-53-01.jpg') no-repeat center center / cover;
-  filter: blur(6px);
+  filter: blur(10px);
   z-index: -10;
 }
 
@@ -104,4 +104,5 @@ footer a {
 
 .slider img {
   width: 140px;
+  padding-top: 8px;
 }

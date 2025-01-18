@@ -2,7 +2,7 @@ import "../App.css";
 
 function Slider() {
   return (
-    <div className="slider h-[40%] w-screen px-4 pt-4">
+    <div className="slider h-[40%] w-full px-4 pt-4 md:pt-0">
       <header className="flex justify-between m-4 items-center">
         <div>
           <h1 className=" text-2xl">لذت های طعم دار</h1>
@@ -14,7 +14,7 @@ function Slider() {
           <img src="/images/logo.png" alt="" />
         </div>
       </header>
-      <main className="bg-gray-500 rounded-2xl bg-opacity-60 h-[140px] flex justify-between items-center px-4">
+      <main className="bg-gray-500 rounded-2xl bg-opacity-60 h-[140px] flex justify-between md:justify-around items-center px-4">
         <div className=" h-full py-4">
           <p className=" mb-6 text-gray-300 text-lg ">پیشنهاد ارگ</p>
           <h1 className=" text-2xl font-extrabold ">میکس پلیتر</h1>

@@ -4,7 +4,7 @@ import "../App.css";
 
 function Menu() {
   return (
-    <div className=" h-screen overflow-hidden">
+    <div className=" h-screen md:w-[80%] lg:w-[70%]  mx-auto overflow-hidden">
       <Slider />
       <Lists />
     </div>

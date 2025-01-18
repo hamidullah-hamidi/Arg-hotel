@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { slides } from "../data/slide";
+import Slide from "./Slide";
 
 function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -25,7 +26,7 @@ function Slider() {
     return () => clearInterval(changeSlide);
   }, []);
 
-  const currentItem = slides[currentSlide];
+  // const currentItem = slides[currentSlide];
 
   return (
     <div className="slider  w-full px-4 py-4 md:pt-0">
@@ -41,9 +42,11 @@ function Slider() {
         </div>
       </header>
 
+      <Slide />
+
       {/* *******-slider-***** */}
 
-      <div className="relative bg-gray-500 rounded-2xl bg-opacity-60 h-[140px]  flex justify-between md:justify-around items-center px-4">
+      {/* <div className="relative bg-gray-500 rounded-2xl bg-opacity-60 h-[140px]  flex justify-between md:justify-around items-center px-4">
         <div className=" h-full py-4 pl-4">
           <p className=" mb-6 text-gray-300 text-lg ">{currentItem.text}</p>
           <h1 className=" text-2xl font-extrabold ">{currentItem.title}</h1>
@@ -59,10 +62,10 @@ function Slider() {
             alt={"loading..."}
             className="w-[120px] object-cover"
           />
-        </div>
+        </div> */}
 
-        {/* bouttons */}
-        <button
+      {/* bouttons */}
+      {/* <button
           onClick={prevSlide}
           className="absolute left-0 bg-stone-700 text-white p-2 rounded-full"
         >
@@ -73,8 +76,8 @@ function Slider() {
           className="absolute  right-0 bg-stone-700 text-white p-2 rounded-full"
         >
           &gt;
-        </button>
-      </div>
+        </button> */}
+      {/* </div> */}
     </div>
   );
 }

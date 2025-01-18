@@ -1,6 +1,6 @@
 /* Import Slick Carousel Styles */
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
 
 * {
   margin: 0;
@@ -17,7 +17,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("/images/photo_2025-01-11_21-53-01.jpg") no-repeat center
+  background: url('/images/photo_2025-01-11_21-53-01.jpg') no-repeat center
     center / cover;
   filter: blur(10px);
   z-index: -10;

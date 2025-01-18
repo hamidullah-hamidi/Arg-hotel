@@ -2,16 +2,16 @@ import "../App.css";
 
 function Slider() {
   return (
-    <div className="slider h-[40%] w-full px-4 pt-4 md:pt-0">
+    <div className="slider  w-full px-4 py-4 md:pt-0">
       <header className="flex justify-between m-4 items-center">
+        <div className=" w-[90px] -mt-3">
+          <img src="/images/logo.png" alt="" />
+        </div>
         <div>
           <h1 className=" text-2xl">لذت های طعم دار</h1>
-          <p className=" text-stone-500 tracking-wider">
+          <p className=" text-stone-200 tracking-wider">
             انتخاب کنید و امتحان کنید
           </p>
-        </div>
-        <div className=" w-[90px]">
-          <img src="/images/logo.png" alt="" />
         </div>
       </header>
       <main className="bg-gray-500 rounded-2xl bg-opacity-60 h-[140px] flex justify-between md:justify-around items-center px-4">

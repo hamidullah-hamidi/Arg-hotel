@@ -6,7 +6,7 @@ function Lists() {
 
   return (
     <div className="lists px-8 h-screen">
-      <h1 className="text-2xl my-4">دسته بندی ها</h1>
+      <h1 className="text-2xl my-4 text-right">دسته بندی ها</h1>
 
       <ul className="first flex gap-2 justify-center items-center">
         <li className={list}>
@@ -23,7 +23,7 @@ function Lists() {
         </li>
         <li className={list}>
           <img src="/images/1.png" alt="" />
-          <p>ماکارونی</p>
+          <p>آش</p>
         </li>
       </ul>
       <Food />

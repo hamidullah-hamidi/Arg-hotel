@@ -2,24 +2,9 @@
 @import 'slick-carousel/slick/slick.css';
 @import 'slick-carousel/slick/slick-theme.css';
 
-.slick-slider .slide-dots {
-  display: flex;
-  flex-direction: column !important;
-  justify-content: space-evenly !important;
-}
-
-.slick-slider .slide-dots li button {
-  padding: 2px !important;
-  color: wheat !important;
-}
-
-.slide-track {
-  display: flex;
-  gap: 10px;
-}
 
 .Slider {
-  margin: 0 10px;
+  /* margin: 0 10px; */
 }
 
 * {

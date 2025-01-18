@@ -1,3 +1,4 @@
+import { Swiper, SwiperSlide } from "swiper/react";
 import "../App.css";
 
 function Slider() {
@@ -14,7 +15,8 @@ function Slider() {
           </p>
         </div>
       </header>
-      <main className="bg-gray-500 rounded-2xl bg-opacity-60 h-[140px] flex justify-between md:justify-around items-center px-4">
+      
+      {/* <main className="bg-gray-500 rounded-2xl bg-opacity-60 h-[140px] flex justify-between md:justify-around items-center px-4">
         <div className=" h-full py-4">
           <p className=" mb-6 text-gray-300 text-lg ">پیشنهاد ارگ</p>
           <h1 className=" text-2xl font-extrabold ">میکس پلیتر</h1>
@@ -26,7 +28,7 @@ function Slider() {
         <div>
           <img src="/images/1.png" alt="" />
         </div>
-      </main>
+      </main> */}
     </div>
   );
 }

@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: vazir;
   color: white;
+  scrollbar-width: none;
 }
 
 .background {
@@ -20,7 +21,7 @@
 
 body {
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container img {

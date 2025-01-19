@@ -3,18 +3,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function FoodDetails() {
   return (
     <div className="animate-fadeIn h-screen flex flex-col justify-center items-center ">
-      <div className="  h-[450px] my-8 flex items-center">
+      <div className="  h-[480px] my-8 flex items-center">
         <FontAwesomeIcon
           icon={['fas', 'chevron-left']}
           className=" absolute top-5 left-5  text-2xl p-4 animate-left-right"
         />
         <img className="w-[350px]" src="/images/mix-pliter.png" alt="" />
       </div>
-      <div className=" bg-gray-400 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">
-        <div className=" border p-2 rounded-full text-2xl">
+      <div className=" bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">
+        <div className=" border py-2 px-4 rounded-full text-2xl">
           <h1>میکس پلیتر مخصوص ارگ</h1>
         </div>
-        <div className=" flex justify-center items-center gap-8 text-lg">
+        <div className=" flex justify-center items-center gap-10 text-lg">
           <ul className=" flex flex-col justify-center items-center">
             <li>🕘</li>
             <li>30 دقیقه</li>
@@ -31,7 +31,7 @@ function FoodDetails() {
             <li>مناسب</li>
           </ul>
         </div>
-        <ul className="more-foods flex justify-center items-center gap-2">
+        <ul className="more-foods flex justify-center items-center gap-3">
           <li className=" text-center bg-gray-400 rounded-2xl py-1">
             <img src="/images/pipcie.png" alt="" />
             <p className="text-gray-700 ">نوشابه</p>

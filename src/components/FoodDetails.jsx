@@ -1,12 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useNavigate } from 'react-router-dom';
 
 function FoodDetails() {
+  const navigate = useNavigate();
+
   return (
     <div className="animate-fadeIn h-screen flex flex-col justify-center items-center ">
       <div className="  h-[480px] my-8 flex items-center">
         <FontAwesomeIcon
           icon={['fas', 'chevron-left']}
-          className=" absolute top-5 left-5  text-2xl p-4 animate-left-right"
+          className=" absolute top-5 left-5  text-2xl p-4 "
+          onClick={() => navigate(-1)}
         />
         <img className="w-[270px] mt-4" src="/images/2.png" alt="" />
       </div>

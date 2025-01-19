@@ -1,10 +1,10 @@
 function FoodDetails() {
   return (
     <div className=" h-screen flex flex-col justify-center items-center ">
-      <div className=" w-[250px] my-8">
-        <img src="/images/1.png" alt="" />
+      <div className="  h-[450px] my-8 flex items-center">
+        <img className="w-[350px]" src="/images/mix-pliter.png" alt="" />
       </div>
-      <div className=" bg-gray-400 bg-opacity-40 rounded-t-[20%] w-full flex flex-col justify-center items-center gap-8 py-8">
+      <div className=" bg-gray-400 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">
         <div className=" border p-2 rounded-full text-2xl">
           <h1>میکس پلیتر مخصوص ارگ</h1>
         </div>
@@ -26,17 +26,17 @@ function FoodDetails() {
           </ul>
         </div>
         <ul className="more-foods flex justify-center items-center gap-2">
-          <li>
+          <li className=" text-center bg-gray-400 rounded-2xl py-1">
             <img src="/images/pipcie.png" alt="" />
-            <p>آش</p>
+            <p className="text-gray-700 ">نوشابه</p>
           </li>
-          <li>
-            <img src="/images/2.png" alt="" />
-            <p>کباب</p>
+          <li className=" text-center bg-gray-400 rounded-2xl py-2">
+            <img src="/images/salad.png" alt="" />
+            <p className="text-gray-700 ">سالاد</p>
           </li>
-          <li>
-            <img src="/images/3.png" alt="" />
-            <p>پیتزا</p>
+          <li className=" text-center bg-gray-400 rounded-2xl py-2">
+            <img src="/images/rice.png" alt="" />
+            <p className="text-gray-700 ">برنج</p>
           </li>
         </ul>
       </div>

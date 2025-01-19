@@ -1,7 +1,13 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 function FoodDetails() {
   return (
-    <div className=" h-screen flex flex-col justify-center items-center ">
+    <div className="animate-fadeIn h-screen flex flex-col justify-center items-center ">
       <div className="  h-[450px] my-8 flex items-center">
+        <FontAwesomeIcon
+          icon={['fas', 'chevron-left']}
+          className=" absolute top-5 left-5  text-2xl p-4 animate-left-right"
+        />
         <img className="w-[350px]" src="/images/mix-pliter.png" alt="" />
       </div>
       <div className=" bg-gray-400 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">

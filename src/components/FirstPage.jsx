@@ -51,7 +51,7 @@ function FirstPage() {
           <p className='my-2'>از اینکه هوتل ارگ انتخاب نمودید از شما سپاسگذاریم</p>
           <Link to='/menu'>
             <span className='mt-3 pr-5  border h-11  text-3xl rounded-full flex justify-center items-center cursor-pointer hover:drop-shadow-2xl'>
-              <i className='material-icons text-5xl left-right'>chevron_left</i>
+              <i className='material-icons text-5xl animate-left-right'>chevron_left</i>
               منو
             </span>
           </Link>

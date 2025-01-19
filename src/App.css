@@ -132,3 +132,7 @@ footer a {
   width: 100px;
   margin-top: -50px;
 }
+
+.second {
+  max-height: calc(100vh - 410px);
+}

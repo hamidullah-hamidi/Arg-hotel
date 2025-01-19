@@ -5,7 +5,7 @@ const foodStyle =
 
 function Food() {
   return (
-    <ul className="second xl:-mt-20 mt-3 mb-0 pt-6 w-full h-full overflow-y-scroll flex flex-wrap justify-center items-center gap-4 md:gap-8">
+    <ul className="second xl:-mt-20 mt-3 mb-0 pt-6 w-full h-full overflow-y-auto flex flex-wrap justify-center items-center gap-4 md:gap-8">
       {foods.map((food) => (
         <li className={foodStyle} key={food.id}>
           <img src={food.img} alt="" />

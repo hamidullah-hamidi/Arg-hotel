@@ -26,7 +26,9 @@ function Lists() {
           <p>آش</p>
         </li>
       </ul>
-      <Food />
+      <div className="food-container  overflow-hidden">
+        <Food />
+      </div>
     </div>
   );
 }

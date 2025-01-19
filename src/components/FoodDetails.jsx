@@ -1,6 +1,6 @@
 function FoodDetails() {
   return (
-    <div className=" h-screen flex flex-col justify-center items-center">
+    <div className=" h-screen flex flex-col justify-center items-center ">
       <div className=" w-[250px] my-8">
         <img src="/images/1.png" alt="" />
       </div>
@@ -25,17 +25,17 @@ function FoodDetails() {
             <li>مناسب</li>
           </ul>
         </div>
-        <ul className='more-foods flex justify-center items-center gap-2'>
+        <ul className="more-foods flex justify-center items-center gap-2">
           <li>
-            <img src="images/1.png" alt="" />
+            <img src="/images/pipcie.png" alt="" />
             <p>آش</p>
           </li>
           <li>
-            <img src="images/2.png" alt="" />
+            <img src="/images/2.png" alt="" />
             <p>کباب</p>
           </li>
           <li>
-            <img src="images/3.png" alt="" />
+            <img src="/images/3.png" alt="" />
             <p>پیتزا</p>
           </li>
         </ul>

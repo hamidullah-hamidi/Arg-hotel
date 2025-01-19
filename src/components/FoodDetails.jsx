@@ -8,7 +8,7 @@ function FoodDetails() {
           icon={['fas', 'chevron-left']}
           className=" absolute top-5 left-5  text-2xl p-4 animate-left-right"
         />
-        <img className="w-[270px] " src="/images/2.png" alt="" />
+        <img className="w-[270px] mt-4" src="/images/2.png" alt="" />
       </div>
       <div className=" bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">
         <div className=" border py-2 px-4 rounded-full text-2xl">

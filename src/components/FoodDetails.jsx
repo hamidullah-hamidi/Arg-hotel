@@ -8,11 +8,11 @@ function FoodDetails() {
           icon={['fas', 'chevron-left']}
           className=" absolute top-5 left-5  text-2xl p-4 animate-left-right"
         />
-        <img className="w-[350px]" src="/images/mix-pliter.png" alt="" />
+        <img className="w-[270px] " src="/images/2.png" alt="" />
       </div>
       <div className=" bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">
         <div className=" border py-2 px-4 rounded-full text-2xl">
-          <h1>میکس پلیتر مخصوص ارگ</h1>
+          <h1>مرغ بریان مخصوص ارگ</h1>
         </div>
         <div className=" flex justify-center items-center gap-10 text-lg">
           <ul className=" flex flex-col justify-center items-center">

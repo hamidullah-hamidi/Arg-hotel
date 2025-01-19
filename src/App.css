@@ -2,13 +2,6 @@
 @import 'slick-carousel/slick/slick.css';
 @import 'slick-carousel/slick/slick-theme.css';
 
-.Slider {
-  /* margin: 0 10px; */
-}
-.slick-slider {
-  /* direction: rtl; */
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -135,4 +128,10 @@ footer a {
 
 .second {
   max-height: calc(100vh - 410px);
+}
+
+/* Food details page */
+
+.more-foods img {
+  width: 120px;
 }

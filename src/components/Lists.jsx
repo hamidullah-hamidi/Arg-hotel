@@ -5,7 +5,7 @@ function Lists() {
     'flex w-fit py-1 px-3 rounded-lg bg-gray-500 bg-opacity-60 gap-2 justify-between items-center text-lg';
 
   return (
-    <div className="lists px-8 h-screen flex flex-col">
+    <div className="lists px-8 h-screen flex flex-col ">
       <h1 className="text-2xl my-4 text-right">دسته بندی ها</h1>
 
       <ul className="first flex gap-2 justify-center items-center ">
@@ -26,7 +26,7 @@ function Lists() {
           <p>آش</p>
         </li>
       </ul>
-      <div className="food-container  overflow-hidden">
+      <div className="overflow-hidden">
         <Food />
       </div>
     </div>

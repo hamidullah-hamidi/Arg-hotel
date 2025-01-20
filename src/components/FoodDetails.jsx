@@ -13,7 +13,7 @@ function FoodDetails() {
       <div className="  h-[480px] my-8 flex items-center">
         <FontAwesomeIcon
           icon={['fas', 'chevron-left']}
-          className=" absolute top-5 left-5  text-2xl p-4 "
+          className=" absolute top-5 left-5  text-2xl p-4 cursor-pointer "
           onClick={() => navigate(-1)}
         />
         <img className="w-[270px] mt-4" src={food.img} alt="" />

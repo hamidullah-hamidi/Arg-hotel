@@ -1,8 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
+
+// در انیجا هم از لوکیشن استفاده کردم بخاطر گرفتن استیت
 
 function FoodDetails() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const { food } = location.state;
 
   return (
     <div className="animate-fadeIn h-screen flex flex-col justify-center items-center ">
@@ -12,7 +16,7 @@ function FoodDetails() {
           className=" absolute top-5 left-5  text-2xl p-4 "
           onClick={() => navigate(-1)}
         />
-        <img className="w-[270px] mt-4" src="/images/2.png" alt="" />
+        <img className="w-[270px] mt-4" src={food.img} alt="" />
       </div>
       <div className=" bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">
         <div className=" border py-2 px-4 rounded-full text-2xl">

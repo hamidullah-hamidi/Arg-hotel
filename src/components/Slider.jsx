@@ -8,7 +8,7 @@ function Slider() {
           <img src="/images/logo.png" alt="" />
         </div>
         <div>
-          <h1 className=" text-2xl">لذت های طعم دار</h1>
+          <h1 className=" text-2xl text-right">لذت های طعم دار</h1>
           <p className=" text-stone-200 tracking-wider">
             انتخاب کنید و امتحان کنید
           </p>

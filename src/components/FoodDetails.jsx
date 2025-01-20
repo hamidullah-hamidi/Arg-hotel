@@ -20,12 +20,12 @@ function FoodDetails() {
       </div>
       <div className=" bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">
         <div className=" border py-2 px-4 rounded-full text-2xl">
-          <h1>مرغ بریان مخصوص ارگ</h1>
+          <h1>{food.title} مخصوص ارگ </h1>
         </div>
         <div className=" flex justify-center items-center gap-10 text-lg">
           <ul className=" flex flex-col justify-center items-center">
             <li>🕘</li>
-            <li>30 دقیقه</li>
+            <li>دقیقه</li>
             <li>پخت و پز</li>
           </ul>
           <ul className=" flex flex-col justify-center items-center">

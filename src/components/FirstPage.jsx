@@ -29,8 +29,7 @@ function FirstPage() {
     <div className="relative h-screen w-full flex justify-center ">
       <div className="relative text-center md:w-full flex flex-col justify-between">
         <div className="h-[450px] w-[460px] md:w-full bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col mx-auto  ">
-          {/* <h1 className='text-4xl mt-20'>ARG HOTEL</h1> */}
-          <img className="arg-logo w-[100px]" src="images/logo.png" alt="" />
+          <img className="arg-logo w-[100px] select-none" src="images/logo.png" alt="" />
           <div className="container relative w-full h-screen flex justify-center items-center overflow-hidden">
             <div className="smoke">
               <img src="." alt="" />
@@ -46,7 +45,7 @@ function FirstPage() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-evenly items-center h-full">
+        <div className="flex flex-col justify-evenly items-center h-full w-full">
           <div className=" mt-10 px-36 flex justify-center items-center flex-col animate-fadeIn">
             <h1 className="text-3xl font-semibold text-orange-500">
               خوش آمدید

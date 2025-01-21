@@ -16,9 +16,9 @@ function FoodDetails() {
           className=" absolute top-5 left-5  text-2xl p-4 cursor-pointer "
           onClick={() => navigate(-1)}
         />
-        <img className="w-[270px] mt-4" src={food.img} alt="" />
+        <img className="w-[270px] mt-4 select-none" src={food.img} alt="" />
       </div>
-      <div className=" bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-center items-center gap-8 ">
+      <div className=" bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-evenly items-center gap-8 ">
         <div className=" border py-2 px-4 rounded-full text-2xl">
           <h1>{food.title} مخصوص ارگ </h1>
         </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Slide from './Slide';
 
 function Slider() {
@@ -5,7 +6,9 @@ function Slider() {
     <div className="slider  w-full px-4 py-4 md:pt-0">
       <header className="flex justify-between m-4  items-center">
         <div className=" w-[90px] -mt-3">
-          <img src="/images/logo.png" alt="" />
+          <Link to="/">
+            <img src="/images/logo.png" alt="" />
+          </Link>
         </div>
         <div>
           <h1 className=" text-2xl text-right">لذت های طعم دار</h1>

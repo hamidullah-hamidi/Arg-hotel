@@ -70,13 +70,13 @@ body {
 
 @keyframes animate {
   0% {
-    transform: translateX(10px);
+    transform: translateX(5px);
   }
   50% {
-    transform: translateX(-5px);
+    transform: translateX(-3px);
   }
   100% {
-    transform: translateX(10px);
+    transform: translateX(5px);
   }
 }
 
@@ -126,4 +126,31 @@ footer a {
 
 .more-foods img {
   width: 100px;
+}
+
+.slide-down {
+  transition: all 0.3s;
+  animation: down 0.5s forwards ease-in-out;
+}
+
+.slide-up {
+  transition: all 0.3s;
+  animation: up 0.5s forwards ease-in-out;
+}
+
+@keyframes down {
+  from {
+    transform: translateY(600px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes up {
+  from {
+    transform: translateY(-600px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }

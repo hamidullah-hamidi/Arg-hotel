@@ -18,7 +18,7 @@ function FoodDetails() {
         />
         <img className="w-[270px] mt-4 select-none" src={food.img} alt="" />
       </div>
-      <div className=" bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-evenly items-center gap-8 ">
+      <div className="slide-down bg-gray-300 bg-opacity-40 rounded-t-[20%] w-full h-full flex flex-col justify-evenly items-center gap-8 ">
         <div className=" border py-2 px-4 rounded-full text-2xl">
           <h1>{food.title} مخصوص ارگ </h1>
         </div>

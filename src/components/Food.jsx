@@ -15,7 +15,7 @@ function Food({ selecetedCatagory }) {
       {filteredFoods.map((food) => (
         <Link to="/menu/food" key={food.id} state={{ food }}>
           <li className={foodStyle} key={food.id}>
-            <img src={food.img} alt="" />
+            <img src={food.img} className="w-[]" />
             <div className=" text-center align-bottom -mt-4">
               <h1 className=" text-2xl my-2">{food.title}</h1>
               <p className=" text-yellow-500">{food.star}</p>

@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import Food from './Food';
 
 function Lists() {
@@ -15,7 +15,7 @@ function Lists() {
   const active = 'bg-red-900';
 
   return (
-    <div className="lists px-8 h-screen flex flex-col ">
+    <div className="lists px-8 h-screen flex flex-col slide-down ">
       <h1 className="text-2xl my-4 text-right">دسته بندی ها</h1>
       <ul className="first flex gap-2 justify-center items-center  ">
         <li

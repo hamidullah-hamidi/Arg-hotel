@@ -3,7 +3,7 @@ import Slide from './Slide';
 
 function Slider() {
   return (
-    <div className="slider  w-full px-4 py-4 md:pt-0">
+    <div className="slider  w-full px-4 py-4 md:pt-0 slide-up">
       <header className="flex justify-between m-4  items-center">
         <div className=" w-[90px] -mt-3">
           <Link to="/">

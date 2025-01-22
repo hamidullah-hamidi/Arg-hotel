@@ -33,7 +33,7 @@ function Slide() {
         </div>
         <div className=" relative py-4 pl-4">
           <p className=" mb-6 text-gray-300 text-lg ">پیشنهاد ارگ</p>
-          <h1 className=" text-2xl font-extrabold ">پلیتر</h1>
+          <h1 className=" text-2xl font-extrabold ">ماکارونی</h1>
           <div className=" flex gap-5 text-sm absolute right-0 mt-2 ">
             <p className="text-gray-200">مخصوص</p>
             <p className="text-gray-200">زمان: 45 دقیقه</p>
@@ -46,7 +46,7 @@ function Slide() {
         </div>
         <div className=" relative py-4 pl-4">
           <p className=" mb-6 text-gray-300 text-lg ">پیشنهاد ارگ</p>
-          <h1 className=" text-2xl font-extrabold ">کباب</h1>
+          <h1 className=" text-2xl font-extrabold ">مرغ بریانی</h1>
           <div className=" flex gap-5 text-sm absolute right-0 mt-2">
             <p className="text-gray-200">مخصوص</p>
             <p className="text-gray-200">زمان: 50 دقیقه</p>

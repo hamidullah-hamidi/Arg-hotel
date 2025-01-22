@@ -29,7 +29,11 @@ function FirstPage() {
     <div className="relative h-screen w-full flex justify-center ">
       <div className="relative text-center md:w-full flex flex-col justify-between">
         <div className="h-[450px] w-[460px] md:w-full bg-red-900 rounded-b-[50%] shadow-2xl shadow-black flex justify-center items-center flex-col mx-auto  ">
-          <img className="arg-logo w-[100px] select-none" src="images/logo.png" alt="" />
+          <img
+            className="arg-logo w-[100px] select-none"
+            src="images/logo.png"
+            alt=""
+          />
           <div className="container relative w-full h-screen flex justify-center items-center overflow-hidden">
             <div className="smoke">
               <img src="." alt="" />
@@ -72,19 +76,13 @@ function FirstPage() {
               <a href="https://www.instagram.com/arg_hotel_af?igsh=MW40eGk4c2F2Mm0wcA==">
                 <FontAwesomeIcon icon={['fab', 'instagram']} />
               </a>
-              <a href="">
-                <FontAwesomeIcon
-                  icon={['fab', 'facebook']}
-                  href="https://www.facebook.com/ArgHotel.af/"
-                />
-              </a>
-              <a href="">
-                <FontAwesomeIcon
-                  icon={['fab', 'telegram']}
-                  href="https://t.me/Group_Arg_Hotel"
-                />
-              </a>
               <FontAwesomeIcon icon={['fab', 'whatsapp']} />
+              <a href="https://www.facebook.com/ArgHotel.af/">
+                <FontAwesomeIcon icon={['fab', 'facebook']} />
+              </a>
+              <a href="https://t.me/Group_Arg_Hotel">
+                <FontAwesomeIcon icon={['fab', 'telegram']} />
+              </a>
             </span>
             <p className=" tracking-widest text-sm">www.arghotel.af</p>
           </footer>

@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import Food from './Food';
 
 function Lists() {
+  const [selecetedCatagory, setSelectedCatagory] = useState('');
+
   const list =
     'flex w-fit py-1 px-3 rounded-lg bg-gray-500 bg-opacity-60 gap-2 justify-center items-center text-lg cursor-pointer active:scale-75 transition-all duration-500 ';
 

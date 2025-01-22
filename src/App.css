@@ -17,9 +17,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url('/images/photo_2025-01-11_21-53-01.jpg') repeat center center /
-    cover;
-  filter: blur(10px);
+  background: url('/images/bg.jpg') repeat center center / cover;
   z-index: -10;
 }
 

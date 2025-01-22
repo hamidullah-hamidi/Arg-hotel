@@ -7,11 +7,10 @@ function Lists() {
   return (
     <div className="lists px-8 h-screen flex flex-col ">
       <h1 className="text-2xl my-4 text-right">دسته بندی ها</h1>
-
       <ul className="first flex gap-2 justify-center items-center ">
         <li className={list}>
           <img src="/images/1.png" alt="" />
-          <p>پیتزا</p>
+          <p>آش</p>
         </li>
         <li className={list}>
           <img src="/images/2.png" alt="" />
@@ -23,7 +22,7 @@ function Lists() {
         </li>
         <li className={list}>
           <img src="/images/1.png" alt="" />
-          <p>آش</p>
+          <p>پیتزا</p>
         </li>
       </ul>
       <div className="overflow-hidden">

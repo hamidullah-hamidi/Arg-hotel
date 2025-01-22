@@ -11,7 +11,6 @@ export const foods = [
     id: 2,
     img: '/images/2.png',
     title: 'مرغ بریان',
-    catagory: 'steak',
     star: '⭐⭐⭐⭐',
     time: 'زمان: 50 دقیقه',
   },
@@ -105,7 +104,7 @@ export const foods = [
   },
   {
     id: 14,
-    img: '/images/steaks/st1.png',
+    img: '/images/steaks/st7.png',
     title: 'کباب',
     catagory: 'steak',
     star: '⭐⭐⭐⭐',
@@ -113,7 +112,7 @@ export const foods = [
   },
   {
     id: 15,
-    img: '/images/steaks/st2.png',
+    img: '/images/steaks/st6.png',
     title: 'کباب',
     catagory: 'steak',
     star: '⭐⭐⭐⭐',
@@ -145,7 +144,7 @@ export const foods = [
   },
   {
     id: 19,
-    img: '/images/steaks/st6.png',
+    img: '/images/steaks/st1.png',
     title: 'کباب',
     catagory: 'steak',
     star: '⭐⭐⭐⭐',
@@ -153,7 +152,7 @@ export const foods = [
   },
   {
     id: 20,
-    img: '/images/steaks/st7.png',
+    img: '/images/steaks/st2.png',
     title: 'کباب',
     catagory: 'steak',
     star: '⭐⭐⭐⭐',
